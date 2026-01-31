@@ -86,6 +86,7 @@ Follow our step-by-step video guide to set up Python, UV, and VS Code on your op
 
 - `agents/root_agent.yaml`: The main orchestration flow (Entry Point).
 - `agents/*.yaml`: Individual agent definitions referenced by the root.
+- `agents/schemas/<agent_name>/output_schema.py`: Pydantic models for structured outputs (Auto-generated).
 - `agents/.env`: Environment variables for the agent runtime.
 
 ---
