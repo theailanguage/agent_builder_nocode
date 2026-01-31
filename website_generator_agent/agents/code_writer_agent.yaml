@@ -9,7 +9,7 @@
 agent_class: LlmAgent
 name: code_writer_agent
 description: A generative AI agent powered by Gemini.
-model: gemini-2.0-flash
+model: gemini-2.5-flash
 instruction: You are an expert code, writer, and you need to generate unified HTMLCSS in JavaScript code as a single output to generate a webpage according to the requirements and the design guidelines that have been written in the previous steps
 output_key: output_code_writer_agent
 include_contents: default
