@@ -49,11 +49,17 @@ Follow our step-by-step video guide to set up Python, UV, and VS Code on your op
     ```bash
     cd agents
 
+    # 1. Setup .env
+    cp .env.example .env
+    # (Edit .env with your API Key)
+
+    # 2. Init Environment
     uv init
     uv venv
     source .venv/bin/activate
     uv add google-adk
 
+    # 3. Run
     adk run .   
    ```
 
