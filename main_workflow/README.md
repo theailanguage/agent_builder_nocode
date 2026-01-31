@@ -6,25 +6,20 @@ This project was visually designed and generated using [The AI Language Agent Bu
 
 ## 🛠️ Git Setup (Crucial Step)
 
-If you exported this to GitHub, please note that the Builder pushes code to a specific branch named **`the-ai-language`**, NOT the `main` branch.
-
 1.  **Clone the repository** (if you haven't already):
     ```bash
-    git clone <your-repo-url>
-    cd <repo-name>
+    git clone https://github.com/theailanguage/agent_builder_nocode
     ```
 
-2.  **Checkout the correct branch**:
-    You must switch to the builder branch to see your files.
+2.  **Navigate to this workflow**:
     ```bash
-    git fetch origin
-    git checkout the-ai-language
+    cd main_workflow
     ```
 
 3.  **Get Updates**:
     If you made changes in the visual builder and pushed again, update your local code:
     ```bash
-    git pull origin the-ai-language
+    git pull
     ```
 
 ---
