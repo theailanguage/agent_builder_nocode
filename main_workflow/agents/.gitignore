@@ -1,0 +1,6 @@
+# Ignore Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
