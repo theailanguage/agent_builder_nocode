@@ -18,7 +18,7 @@ generate_content_config:
     properties:
       htmlDoc:
         type: STRING
-        description: The complete unified HTML plus CSS plus JavaScript document representing the webpage that has been generated according to the design guidelines and requirements generated in the previous steps
+        description: The, unified HTML, CSS, and JavaScript document representing the webpage based on the requirements and the design guidelines generated in the previous steps
     required:
       - htmlDoc
 tools: []
