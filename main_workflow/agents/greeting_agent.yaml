@@ -1,10 +1,10 @@
 agent_class: LlmAgent
 name: Greeting agent
 description: A generative AI agent powered by Gemini.
-model: gemini-3-pro-preview
+model: gemini-3-flash-preview
 instruction: You are an helpful agent that will generate a joke based on the query provided by the user
 output_key: output_greeting_agent
-include_contents: true
+include_contents: none
 disallow_transfer_to_parent: false
 disallow_transfer_to_peers: false
 generate_content_config:
